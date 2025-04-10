@@ -8,6 +8,7 @@ html, body {
 
 body {
   background-size: cover;
+  overflow: hidden;
 }
 
 .video-background {
@@ -23,7 +24,7 @@ body {
 .video-background video {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Faz o vídeo preencher sem distorcer */
+  object-fit: cover; 
 }
 
 .container {
@@ -39,7 +40,6 @@ body {
   flex-basis: 20%;
   flex-direction: column;
   border-right: 2px solid #CC9900; 
-  height: 100%;
   overflow-y: hidden;
 }
 
@@ -123,7 +123,7 @@ button{
 }
 
 .menu ul li a:hover {
-  transform: scale(1.1); /* Aumenta ligeiramente o botão ao passar o mouse */
+  transform: scale(1.1); 
 }
 
 
@@ -135,20 +135,20 @@ button{
   gap: 20px;
   overflow-y: auto;
   box-sizing: border-box;
-  border-left: 2px solid #CC9900; /* Complementando o tema */
+  border-left: 2px solid #CC9900; 
 }
 
 .box {
   background: rgba(0, 0, 0, 0.8);
   padding: 20px;
   border-radius: 10px;
-  border: 1px solid #FFD700; /* Cada box com detalhes dourados */
+  border: 1px solid #FFD700; 
 }
 
 .box h2 {
-  color: #FFD700; /* Dourado brilhante como o One Piece */
+  color: #FFD700; 
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 0;
+  margin-top: 20px;
   text-align: center;
 }
 
